@@ -1,0 +1,11 @@
+<ForceField>
+<!--
+https://doi.org/10.1002/adts.201900254
+ -->
+ <AtomTypes>
+  <Type name="GPH" class="GPH" element="C" mass="12.01" def="C" desc="Carbon graphene"/>
+ </AtomTypes>
+ <NonbondedForce coulomb14scale="0.5" lj14scale="0.5">
+  <Atom type="GPH" charge="0" sigma="0.33966950842" epsilon="0.335"/>
+ </NonbondedForce>
+</ForceField>
